@@ -13,3 +13,13 @@ Usage:
       chmod +x scraper.sh
   - Run it like this:
       ./scraper.sh
+
+# note ngix
+
+wont allow to get recursive extensions 
+images were number 
+/img/backs/01.gif
+
+Solution 
+
+wget example.com/imageId={1..100000}.jpg
